@@ -53,7 +53,9 @@
             <Label
                 Grid.Row="2"
                 IsVisible="{Binding ShowUserNameError}"
+                Style="{StaticResource Error}"
                 Text="{Binding UserNameErrorMEssage}" />
+
         </Grid>
         <!--  Password  -->
         <Label Style="{StaticResource lblStyle}" Text="Password" />
